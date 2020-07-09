@@ -562,7 +562,7 @@ GEM
       actionmailer (>= 3)
       premailer (~> 1.7, >= 1.7.9)
     public_suffix (3.1.0)
-    puma (4.3.3)
+    puma (4.3.5)
       nio4r (~> 2.0)
     rack (2.0.8)
     rack-attack (6.3.1)
@@ -794,7 +794,7 @@ DEPENDENCIES
   lograge
   newrelic_rpm
   passenger
-  puma (~> 4.3.3)
+  puma (~> 4.3.5)
   sendgrid-ruby
   sentry-raven
   sidekiq

@@ -492,7 +492,9 @@ GEM
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2020.0512)
-    mimemagic (0.3.5)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_magick (4.10.1)
     mini_mime (1.0.1)
     mini_portile2 (2.4.0)
@@ -507,7 +509,7 @@ GEM
     mustache (1.1.1)
     netrc (0.11.0)
     newrelic_rpm (6.11.0.365)
-    nio4r (2.5.2)
+    nio4r (2.5.8)
     nobspw (0.6.2)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
@@ -562,7 +564,7 @@ GEM
       actionmailer (>= 3)
       premailer (~> 1.7, >= 1.7.9)
     public_suffix (3.1.0)
-    puma (4.3.3)
+    puma (4.3.9)
       nio4r (~> 2.0)
     rack (2.0.8)
     rack-attack (6.3.1)
@@ -794,7 +796,7 @@ DEPENDENCIES
   lograge
   newrelic_rpm
   passenger
-  puma (~> 4.3.3)
+  puma (~> 4.3.9)
   sendgrid-ruby
   sentry-raven
   sidekiq
